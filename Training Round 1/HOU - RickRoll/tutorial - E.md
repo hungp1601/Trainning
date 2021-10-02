@@ -24,16 +24,6 @@ Cấu trúc dữ liệu Disjoint Set Union (DSU) cho phép bạn thêm các cạ
 - Mảng vector<int> <b>dsu<b>;  tất cả thông tin về các tập hợp thành phố sẽ được lưu giữ trong mảng.
 - int pv;   lưu phạm vi tối thiểu của ô tô. 
 
- ## Lời giải:
-
-Có n người chơi cùng chơi một trò chơi, trong đó, tất cả người chơi đều chơi đúng một trận với n - 1 người còn lại, kết quả chỉ có thắng và thua.
-
-Đề bài cho ta n là số người chơi và kết quả các cặp đấu giữa n người chơi.
-
-Đề yêu cầu tìm cách sắp xếp n người chơi sao cho, theo thứ tự đó ta tách lần lượt từng người chơi từ tập A (ban đầu bao gồm n người chơi) sang 1 tập mới B, tại mọi thời điểm có tối đa k người chơi ở tập A đã chiến thắng B, ta cần tìm cách sắp xếp sao cho k là bé nhất.
-
-Ta chỉ cần in ra số k.
-
 ## Lời giải
 
 - Khởi tạo mảng dsu (Ban đầu chưa có thành phố nào được liên kết với nhau).
